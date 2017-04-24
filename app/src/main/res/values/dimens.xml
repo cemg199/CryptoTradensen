@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="paddingHorizontalLogin">28dp</dimen>
+    <dimen name="textSizeEditTextWhiteStyle">22sp</dimen>
+    <dimen name="textSizeAccount">18sp</dimen>
+    <dimen name="textSizeAccount2">18sp</dimen>
+    <dimen name="paddingCreateAccount">10dp</dimen>
+    <dimen name="marginTopCreateAcount">10dp</dimen>
+    <dimen name="marginTopCreateAccountButton">30dp</dimen>
+    <dimen name="EditTextSize">22sp</dimen>
+    <dimen name="EditTextSize2">20sp</dimen>
+    <dimen name="marginTopHomeButtons">30dp</dimen>
+    <dimen name="marginTopImage">111dp</dimen>
+    <dimen name="paddingDate">32dp</dimen>
+    <dimen name="topMarginBankSpinner">15dp</dimen>
+    <dimen name="radiobut">5dp</dimen>
+    <dimen name="fechaSize">18sp</dimen>
+    <dimen name="marginTopCreateAccountButton2">20dp</dimen>
+</resources>

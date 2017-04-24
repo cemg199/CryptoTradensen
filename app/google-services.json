@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "503671009038",
+    "firebase_url": "https://cryptotradensen.firebaseio.com",
+    "project_id": "cryptotradensen",
+    "storage_bucket": "cryptotradensen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503671009038:android:016ffa3402e63f80",
+        "android_client_info": {
+          "package_name": "com.cemg199.cryptotradensen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503671009038-4dp9joaa7h3i4brh7u0nr5h881g6h7ur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cemg199.cryptotradensen",
+            "certificate_hash": "6203c23cf24161d2e08d3d36a4951f2548d7d62c"
+          }
+        },
+        {
+          "client_id": "503671009038-vfbla6ljcid4ke6f3a2ja48p28vb2e5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0ceV47lYgtw9WhLY_wyDU6RlXqMAZ0vo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503671009038-vfbla6ljcid4ke6f3a2ja48p28vb2e5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

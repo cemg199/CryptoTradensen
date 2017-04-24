@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dashboard"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context="com.cemg199.cryptotradensen.DashBoard">
+
+
+
+    <ImageView
+        android:id="@+id/iconBit"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bitcoinlogo"
+
+        />
+
+   <TextView
+       android:id="@+id/dashboard_welcome"
+       android:layout_below="@+id/iconBit"
+       android:text="Welcome, user"
+       android:layout_centerHorizontal="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       style="@style/Widget.AppCompat.Button.Borderless"
+       android:textColor="@color/colorPrimaryDark"
+       />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/dashboard_welcome"
+        android:id="@+id/dashboard_input_new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/dashboard_new_password"
+            android:hint="Enter new password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_below="@id/dashboard_input_new_password"
+        android:id="@+id/dashboard_btn_change_pass"
+        android:text="Change Password"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#263238"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/dashboard_btn_change_pass"
+        android:id="@+id/dashboard_btn_logout"
+        android:text="Logout"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#263238"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dashboard_btn_back"
+        android:layout_below="@+id/dashboard_btn_logout"
+        android:text="Back"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:clickable="true"
+        />
+
+
+
+</RelativeLayout>

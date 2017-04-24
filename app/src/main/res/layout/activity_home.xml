@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dashboard"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context="com.cemg199.cryptotradensen.Home">
+
+    <ImageView
+        android:id="@+id/iconBit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bitcoinlogo"
+
+        />
+
+    <TextView
+        android:id="@+id/dashboard_welcomeHome"
+        android:layout_below="@+id/iconBit"
+        android:text="Welcome, user"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+
+
+    <Button
+        android:layout_below="@id/dashboard_welcomeHome"
+        android:id="@+id/accounts"
+        android:text="ACCOUNTS"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#263238"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/accounts"
+        android:id="@+id/createAccount"
+        android:text="CREATE ACCOUNT"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#263238"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/createAccount"
+        android:id="@+id/options"
+        android:text="OPTIONS"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#263238"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+
+
+</RelativeLayout>
